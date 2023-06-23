@@ -1,0 +1,182 @@
+/* ******************************************************************** */
+
+.main-div {
+    /* max-width: 800px; */
+    width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    /* margin: 85px auto; */
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+.heading img {
+    width: 50px;
+    height: 50px;
+    margin: auto 0;
+}
+
+.tagline {
+    font-size: 22px;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.heading .company-name {
+    font-size: 32px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin: 0;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 350px;
+    padding: 20px;
+    margin: 15px auto;
+    border-radius: 5px;
+    border: none;
+    background-color: #f8f9fa;
+    font-family: "Poppins", sans-serif;
+}
+
+input[type="text"]:focus {
+    background-color: #f8f9fa;
+}
+
+.password-div {
+    width: 390px;
+    margin: 15px auto;
+    border-radius: 5px;
+    border: none;
+    background-color: #f8f9fa;
+}
+
+.password-div:focus {
+    background-color: rgb(232, 240, 254);
+}
+
+.password-div input {
+    font-family: "Poppins", sans-serif;
+    border: none;
+    background-color: #f8f9fa;
+    width: 85%;
+    padding: 20px;
+    margin: 0;
+}
+
+input:-webkit-autofill {
+    appearance: none;
+    background-image: none;
+    background-color: #f8f9fa !important;
+    color: inherit;
+}
+
+svg {
+    color: #9c9c9c;
+}
+
+.password-div input:focus {
+    background-color: #f8f9fa;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+}
+
+button {
+    padding: 15px 50px;
+    margin: 10px auto;
+    background-color: #bfc1d0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+button.focused {
+    background-color: #0056b3;
+}
+
+.success-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.success-img {
+    margin: auto;
+    height: 400px;
+}
+
+.success-message {
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.links-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: #9c9c9c;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.links-container a {
+    margin: 0 5px;
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.note-div {
+    margin-top: 20px;
+    color: #9c9c9c;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.css-uf99v8 {
+    all: unset !important;
+}
+
+iframe {
+    border: none;
+}

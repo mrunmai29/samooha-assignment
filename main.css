@@ -1,0 +1,13 @@
+/* main.css */
+
+iframe {
+    width: 100%;
+    height: 100vh;
+}
+
+input:-internal-autofill-selected {
+    appearance: none;
+    background-image: none;
+    background-color: #f8f9fa !important;
+    color: inherit;
+}
